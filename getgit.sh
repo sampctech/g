@@ -12,7 +12,7 @@ git clone https://github.com/sampctech/game "$HOME"/github/game
 git clone https://github.com/sampctech/mlt "$HOME"/github/mlt
 git clone https://github.com/sampctech/org "$HOME"/github/org
 
-git clone https://github.com/arcolinuxd/arco-cinnamon "$HOME"
+git clone https://github.com/arcolinuxd/arco-cinnamon "$HOME"/
 
 chmod -R 755 "$HOME"/github
 exit
