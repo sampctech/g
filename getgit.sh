@@ -8,7 +8,6 @@
 
 #git clone https://github.com/sampctech/g "$HOME"/g
 git clone https://github.com/sampctech/arccin "$HOME"/github/arccin
-git clone https://github.com/sampctech/mcy "$HOME"/github/mcy
 git clone https://github.com/sampctech/org "$HOME"/github/org
 
 git clone https://github.com/arcolinuxd/arco-cinnamon "$HOME"/arco-cinnamon
