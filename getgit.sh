@@ -9,8 +9,10 @@
 #cd g
 
 echo "##############################################################"
-echo "####                  sampctech Repos                     ####"
+echo "####               Getting sampctech Repos                ####"
 echo "##############################################################"
+
+sleep 1
 
 git clone https://github.com/sampctech/a
 git clone https://github.com/sampctech/ab_renamer
@@ -25,18 +27,25 @@ git clone https://github.com/sampctech/sets
 git clone https://github.com/sampctech/w10
 
 echo "##############################################################"
-echo "####                  ArcoLinux Repos                     ####"
+echo "####               Getting ArcoLinux Repos                ####"
 echo "##############################################################"
+
+sleep 1
 
 git clone https://github.com/arcolinuxd/arco-cinnamon "arcolinuxd"
 git clone https://github.com/arcolinuxb/arco-cinnamon "arcolinuxb"
+
+echo "##############################################################"
+echo "####                 Updating permissions                 ####"
+echo "##############################################################"
 
 #chmod -R 755 "$HOME"/g
 #chmod -vR +777 "$HOME/g"
 chmod -cR +777 "$HOME/g"
 
 echo "##############################################################"
-echo "####        Completed Clone and permission updates        ####"
+echo "####       Clones Completed and permission updated        ####"
 echo "##############################################################"
 
-exit
+sleep 1
+sleep 0 && exit
