@@ -14,17 +14,20 @@ echo "##############################################################"
 
 sleep 1
 
+git clone https://github.com/sampctech/arch
+git clone https://github.com/sampctech/wps
+git clone https://github.com/sampctech/TANE
+git clone https://github.com/sampctech/w10
+git clone https://github.com/sampctech/m20
+git clone https://github.com/sampctech/arccin
+git clone https://github.com/sampctech/gimpcon
 git clone https://github.com/sampctech/a
 git clone https://github.com/sampctech/ab_renamer
-git clone https://github.com/sampctech/arccin
-git clone https://github.com/sampctech/arcob "arcobsam"
-git clone https://github.com/sampctech/gimpcon
-git clone https://github.com/sampctech/git
-git clone https://github.com/sampctech/githu
-git clone https://github.com/sampctech/m20
-git clone https://github.com/sampctech/org
+git clone https://github.com/sampctech/arcob
 git clone https://github.com/sampctech/sets
-git clone https://github.com/sampctech/w10
+git clone https://github.com/sampctech/githu
+git clone https://github.com/sampctech/git
+git clone https://github.com/sampctech/org
 
 echo "##############################################################"
 echo "####               Getting ArcoLinux Repos                ####"
