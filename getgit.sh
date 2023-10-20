@@ -14,29 +14,33 @@ echo "##############################################################"
 
 sleep 1
 
-git clone https://github.com/sampctech/arch
-git clone https://github.com/sampctech/wps
-git clone https://github.com/sampctech/TANE
-git clone https://github.com/sampctech/w10
-git clone https://github.com/sampctech/m20
-git clone https://github.com/sampctech/arccin
-git clone https://github.com/sampctech/gimpcon
-git clone https://github.com/sampctech/a
 git clone https://github.com/sampctech/ab_renamer
-git clone https://github.com/sampctech/arcob
-git clone https://github.com/sampctech/sets
-git clone https://github.com/sampctech/githu
+git clone https://github.com/sampctech/lfs
+git clone https://github.com/sampctech/samoctech
+git clone https://github.com/sampctech/w10
+git clone https://github.com/sampctech/RS_FIXES
+git clone https://github.com/sampctech/myarch
+git clone https://github.com/sampctech/arch
+git clone https://github.com/sampctech/m20
+git clone https://github.com/sampctech/g
+git clone https://github.com/sampctech/gimpcon
 git clone https://github.com/sampctech/git
-git clone https://github.com/sampctech/org
 
 echo "##############################################################"
 echo "####               Getting ArcoLinux Repos                ####"
 echo "##############################################################"
 
+echo "Would you like to try to get ArcoLinux D & B gits?"
+read answer
+  if [$answer="yes" or "y"]
+then
 sleep 1
 
 git clone https://github.com/arcolinuxd/arco-cinnamon "arcolinuxd"
 git clone https://github.com/arcolinuxb/arco-cinnamon "arcolinuxb"
+else
+   echo "continuing"
+fi
 
 echo "##############################################################"
 echo "####                 Updating permissions                 ####"
